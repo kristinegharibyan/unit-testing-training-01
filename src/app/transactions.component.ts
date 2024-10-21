@@ -10,7 +10,7 @@ import { Transaction } from './types/transaction.type';
       <header>
         <h2>Transactions</h2>
         <h3>Current Balance: $ {{ currentBalance() }}</h3>
-        <button (click)="openAddTransactionDialog()">Add Transaction</button>
+        <button (click)="openAddTransactionDialog()" id="addButton">Add Transaction</button>
       </header>
       <table>
         <thead>

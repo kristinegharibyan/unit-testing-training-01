@@ -41,7 +41,7 @@ type Full<T> = {
         </div>
         <footer>
           <button class="danger" (click)="cancel()">Cancel</button>
-          <button (click)="addTransaction()">Add Transaction</button>
+          <button id="addButton" (click)="addTransaction()">Add Transaction</button>
         </footer>
       </form>
     </dialog>
